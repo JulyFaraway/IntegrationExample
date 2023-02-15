@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using static GameObjectExtensions;// オブジェクトのLayer変更のために継承を追加
 
 namespace Map
 {
@@ -14,6 +15,9 @@ namespace Map
             RightToLeft,
             LeftToRight
         }
+        
+        public int mapLayer = 10; // 生成するオブジェクトのLayerを変更するために追加
+        public string mapParentObjectName = "OuterMapParent"; // 生成するオブジェクトのLayerを変更するために追加
 
         public MapManager mapManager;
         public MapOrientation orientation;
@@ -98,6 +102,14 @@ namespace Map
             SetLineColors();
 
             CreateMapBackground(m);
+
+            SetLayerToMap(mapParentObjectName); // FIXME re-generateすると場所が戻る
+        }
+        
+        private void SetLayerToMap(string mapParentObjectName)
+        {
+            var targetObject = GameObject.Find(mapParentObjectName);
+            targetObject.SetLayerRecursively(mapLayer);// 自分自身の子を含むLayerをUI用に変更する
         }
 
         private void CreateMapBackground(Map m)
