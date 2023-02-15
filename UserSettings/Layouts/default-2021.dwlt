@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 2249
-    y: 302.5
-    width: 1206
-    height: 715
+    x: -829
+    y: 1108
+    width: 1920
+    height: 1052
   m_ShowMode: 4
-  m_Title:
-  m_RootView: {fileID: 6}
+  m_Title: Inspector
+  m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -32,23 +32,24 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsolePro3Window
+  m_EditorClassIdentifier: 
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 30
-    width: 1206
-    height: 665
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
-  vertical: 0
-  controlID: 119
+    y: 621
+    width: 537
+    height: 381
+  m_MinSize: {x: 201, y: 141}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -57,24 +58,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_Children: []
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 921
+    x: 1383
     y: 0
-    width: 285
-    height: 665
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 0
+    width: 537
+    height: 1002
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 20311
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -83,22 +83,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 228
-    height: 394
-  m_MinSize: {x: 201, y: 221}
+    width: 537
+    height: 621
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -109,25 +109,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier:
-  m_Children: []
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 394
-    width: 921
-    height: 271
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
-  m_Panes:
-  - {fileID: 12}
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+    y: 30
+    width: 1920
+    height: 1002
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 20407
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,22 +134,24 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1206
-    height: 715
-  m_MinSize: {x: 875, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
+    y: 354
+    width: 500
+    height: 648
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,21 +160,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_Children: []
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1206
-    height: 30
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
-  m_LoadedToolbars: []
-  m_LastLoadedLayoutName: Default
+    width: 500
+    height: 1002
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 20409
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,19 +185,24 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 695
-    width: 1206
-    height: 20
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
+    y: 0
+    width: 500
+    height: 354
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,22 +212,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 10}
   - {fileID: 5}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 921
-    height: 665
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 92
+    width: 1920
+    height: 1052
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,22 +240,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 921
-    height: 394
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-  controlID: 93
+    width: 1920
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: MyLayout
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,24 +262,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_Children: []
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
-    x: 228
+    x: 0
     y: 0
-    width: 693
-    height: 394
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 1
+    width: 1383
+    height: 1002
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 0
+  controlID: 20408
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -282,133 +287,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
-  m_Pos:
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
-  m_ViewDataDictionary: {fileID: 0}
-  m_SearchFilter:
-    m_NameFilter:
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_VersionControlStates: []
-    m_SoftLockControlStates: []
-    m_ReferencingInstanceIDs:
-    m_SceneHandles:
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-    - Assets
-    m_Globs: []
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: U:\layout
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f4350000
-    m_LastClickedID: 13812
-    m_ExpandedIDs: 00000000f435000000ca9a3b
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name:
-      m_OriginalName:
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString:
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path:
-      m_Icon: {fileID: 0}
-      m_ResourceFile:
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs:
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4350000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name:
-      m_OriginalName:
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString:
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path:
-      m_Icon: {fileID: 0}
-      m_ResourceFile:
-  m_ListAreaState:
-    m_SelectedInstanceIDs:
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name:
-      m_OriginalName:
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path:
-      m_Icon: {fileID: 0}
-      m_ResourceFile:
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
+    x: 0
+    y: 1032
+    width: 1920
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -418,35 +308,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
-  m_Pos:
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 14}
+  - {fileID: 15}
+  m_Position:
     serializedVersion: 2
-    x: 3170
-    y: 332.5
-    width: 284
-    height: 644
-  m_ViewDataDictionary: {fileID: 0}
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization:
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_AssetGUID:
-  m_InstanceID: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
+    x: 500
+    y: 0
+    width: 883
+    height: 1002
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 20341
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -456,32 +333,3861 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 883
+    height: 484
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 21}
+  m_Panes:
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 484
+    width: 883
+    height: 518
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1586788657, guid: a2284c517ee274c19a6ba4c1a8c96fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 120}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console Pro
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 554
+    y: 1759
+    width: 536
+    height: 360
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  logPanelScroll: {x: 0, y: -97}
+  logPanelSelectedIndex: -1
+  logPanelAutoScroll: 1
+  currentFrame: 16166
+  logs:
+    lastGrabbedIndex: 1
+    lastGrabbedCount: 2
+    proEntries:
+    - logType: 1
+      ignore: 0
+      processed: 1
+      tempFilterProcessed: 1
+      remoteEndPoint: Local
+      logPanelVisible: 1
+      logPanelIndex: 0
+      logOutputHeight: 27
+      listIndex: 0
+      nativeIndex: 0
+      nativeIdentifier: 0
+      originalLog: 'Map span in set orientation: 29.81456 camera aspect: 1.777311'
+      originalStackTrace: 'Map span in set orientation: 29.81456 camera aspect: 1.777311
+
+        UnityEngine.Debug:Log
+        (object)
+
+        Map.MapView:SetOrientation () (at Assets/Scripts/MapView.cs:237)
+
+        Map.MapView:ShowMap
+        (Map.Map) (at Assets/Scripts/MapView.cs:96)
+
+        Map.MapManager:ActivateMap
+        () (at Assets/Scripts/MapManager.cs:56)
+
+        OverlayDreamMap/<ExecuteAsync>d__5:MoveNext
+        () (at Assets/Runtime/OverlayDreamMap.cs:40)
+
+        Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder:Start<OverlayDreamMap/<ExecuteAsync>d__5>
+        (OverlayDreamMap/<ExecuteAsync>d__5&) (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124)
+
+        OverlayDreamMap:ExecuteAsync
+        (Naninovel.AsyncToken)
+
+        Naninovel.ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130:MoveNext
+        () (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:598)
+
+        Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder:Start<Naninovel.ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130>
+        (Naninovel.ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130&) (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124)
+
+        Naninovel.ScriptPlayer:ExecuteIgnoringCancellationAsync
+        (Naninovel.Command,Naninovel.AsyncToken)
+
+        Naninovel.ScriptPlayer/<ExecutePlayedCommandAsync>d__128:MoveNext
+        () (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:558)
+
+        Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder:Start<Naninovel.ScriptPlayer/<ExecutePlayedCommandAsync>d__128>
+        (Naninovel.ScriptPlayer/<ExecutePlayedCommandAsync>d__128&) (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124)
+
+        Naninovel.ScriptPlayer:ExecutePlayedCommandAsync
+        (Naninovel.AsyncToken)
+
+        Naninovel.ScriptPlayer/<PlayRoutineAsync>d__131:MoveNext
+        () (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:622)
+
+        Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<PlayRoutineAsync>d__131>:Run
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16)
+
+        Naninovel.UniTaskCompletionSource:TryInvokeContinuation
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149)
+
+        Naninovel.UniTaskCompletionSource:TrySetResult
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167)
+
+        Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder:SetResult
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:72)
+
+        Naninovel.ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126:MoveNext
+        () (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:523)
+
+        Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126>:Run
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16)
+
+        Naninovel.UniTaskCompletionSource:TryInvokeContinuation
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149)
+
+        Naninovel.UniTaskCompletionSource:TrySetResult
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167)
+
+        Naninovel.ScriptPlayer:SetWaitingForInputEnabled
+        (bool) (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:432)
+
+        Naninovel.ScriptPlayer:DisableWaitingForInput
+        () (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:509)
+
+        Naninovel.InputSampler:SetInputValue
+        (single) (at Assets/Naninovel/Runtime/Input/InputSampler.cs:233)
+
+        Naninovel.InputSampler:<SampleInput>g__SampleObjectTriggers|43_3
+        () (at Assets/Naninovel/Runtime/Input/InputSampler.cs:149)
+
+        Naninovel.InputSampler:SampleInput
+        () (at Assets/Naninovel/Runtime/Input/InputSampler.cs:106)
+
+        Naninovel.InputManager/<SampleInputAsync>d__24:MoveNext
+        () (at Assets/Naninovel/Runtime/Input/InputManager.cs:168)
+
+        Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.InputManager/<SampleInputAsync>d__24>:Run
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16)
+
+        Naninovel.Async.Internal.ContinuationQueue:RunCore
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:193)
+
+        Naninovel.Async.Internal.ContinuationQueue:EarlyUpdate
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:153)
+
+        Naninovel.Async.Internal.ContinuationQueue:Run
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:100)
+
+'
+      nativeFileName: Assets/Scripts/MapView.cs
+      nativeFileNamePretty: 
+      nativeLineNumber: 237
+      watchName: 
+      logText: 'Map span in set orientation: 29.81456 camera aspect: 1.777311'
+      logTruncatedText: 'Map span in set orientation: 29.81456 camera aspect: 1.777311'
+      logColumnText: 'Map span in set orientation: 29.81456 camera aspect: 1.777311'
+      fileName: 
+      className: 
+      namespaceName: 
+      lineCount: 1
+      hasSourceCode: 0
+      timeStamp: 22:46:02.223
+      timeFrame: 1101
+      timeStampDateTimeNow: 22:46:02.223
+      instanceID: 0
+      collapsedCount: 0
+      cachedHeight: 19
+      cachedHeightLogWidth: 492
+      stackEntries:
+      - fileName: Assets/Scripts/MapView.cs
+        fileNameWithoutAssets: Scripts/MapView.cs
+        fileNameWithoutAssetsPlusLineNumber: Scripts/MapView.cs:237
+        fileNameWithoutPath: MapView.cs
+        fileNameWithoutPathPlusLineNumber: MapView.cs:237
+        fileNamePretty: MapView
+        instanceID: -1
+        className: MapView
+        methodName: SetOrientation
+        namespaceName: Map
+        lineNumberString: 237
+        charNumber: 0
+        stackLabel: MapView.SetOrientation()
+        stackLabel2: ' at /Scripts/MapView.cs:237'
+        stackLabel1Content:
+          m_Text: MapView.SetOrientation()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 153
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Scripts/MapView.cs:237'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 168
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Scripts/MapView.cs
+        fileNameWithoutAssets: Scripts/MapView.cs
+        fileNameWithoutAssetsPlusLineNumber: Scripts/MapView.cs:96
+        fileNameWithoutPath: MapView.cs
+        fileNameWithoutPathPlusLineNumber: MapView.cs:96
+        fileNamePretty: MapView
+        instanceID: -1
+        className: MapView
+        methodName: ShowMap
+        namespaceName: Map
+        lineNumberString: 96
+        charNumber: 0
+        stackLabel: MapView.ShowMap()
+        stackLabel2: ' at /Scripts/MapView.cs:96'
+        stackLabel1Content:
+          m_Text: MapView.ShowMap()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 126
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Scripts/MapView.cs:96'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 162
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Scripts/MapManager.cs
+        fileNameWithoutAssets: Scripts/MapManager.cs
+        fileNameWithoutAssetsPlusLineNumber: Scripts/MapManager.cs:56
+        fileNameWithoutPath: MapManager.cs
+        fileNameWithoutPathPlusLineNumber: MapManager.cs:56
+        fileNamePretty: MapManager
+        instanceID: -1
+        className: MapManager
+        methodName: ActivateMap
+        namespaceName: Map
+        lineNumberString: 56
+        charNumber: 0
+        stackLabel: MapManager.ActivateMap()
+        stackLabel2: ' at /Scripts/MapManager.cs:56'
+        stackLabel1Content:
+          m_Text: MapManager.ActivateMap()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 167
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Scripts/MapManager.cs:56'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 185
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Runtime/OverlayDreamMap.cs
+        fileNameWithoutAssets: Runtime/OverlayDreamMap.cs
+        fileNameWithoutAssetsPlusLineNumber: Runtime/OverlayDreamMap.cs:40
+        fileNameWithoutPath: OverlayDreamMap.cs
+        fileNameWithoutPathPlusLineNumber: OverlayDreamMap.cs:40
+        fileNamePretty: OverlayDreamMap
+        instanceID: -1
+        className: OverlayDreamMap/<ExecuteAsync>d__5
+        methodName: MoveNext
+        namespaceName: None
+        lineNumberString: 40
+        charNumber: 0
+        stackLabel: OverlayDreamMap/<ExecuteAsync>d__5.MoveNext()
+        stackLabel2: ' at /Runtime/OverlayDreamMap.cs:40'
+        stackLabel1Content:
+          m_Text: OverlayDreamMap/<ExecuteAsync>d__5.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 316
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Runtime/OverlayDreamMap.cs:40'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 222
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124
+        fileNameWithoutPath: AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutPathPlusLineNumber: AsyncUniTaskMethodBuilder.cs:124
+        fileNamePretty: AsyncUniTaskMethodBuilder
+        instanceID: -1
+        className: AsyncUniTaskMethodBuilder
+        methodName: Start<OverlayDreamMap/<ExecuteAsync>d__5>
+        namespaceName: Naninovel.Async.CompilerServices
+        lineNumberString: 124
+        charNumber: 0
+        stackLabel: AsyncUniTaskMethodBuilder.Start<OverlayDreamMap/<ExecuteAsync>d__5>()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+        stackLabel1Content:
+          m_Text: AsyncUniTaskMethodBuilder.Start<OverlayDreamMap/<ExecuteAsync>d__5>()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 473
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 611
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: None
+        fileNameWithoutAssets: None
+        fileNameWithoutAssetsPlusLineNumber: None
+        fileNameWithoutPath: None
+        fileNameWithoutPathPlusLineNumber: None
+        fileNamePretty: None
+        instanceID: -1
+        className: OverlayDreamMap
+        methodName: ExecuteAsync
+        namespaceName: None
+        lineNumberString: 0
+        charNumber: 0
+        stackLabel: OverlayDreamMap.ExecuteAsync()
+        stackLabel2: 
+        stackLabel1Content:
+          m_Text: OverlayDreamMap.ExecuteAsync()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 207
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:598
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:598
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130
+        methodName: MoveNext
+        namespaceName: Naninovel
+        lineNumberString: 598
+        charNumber: 0
+        stackLabel: ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130.MoveNext()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:598'
+        stackLabel1Content:
+          m_Text: ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 413
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:598'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 333
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124
+        fileNameWithoutPath: AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutPathPlusLineNumber: AsyncUniTaskMethodBuilder.cs:124
+        fileNamePretty: AsyncUniTaskMethodBuilder
+        instanceID: -1
+        className: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel
+        methodName: ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130>
+        namespaceName: None
+        lineNumberString: 124
+        charNumber: 0
+        stackLabel: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel.ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130>()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+        stackLabel1Content:
+          m_Text: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel.ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130>()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 837
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 611
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: None
+        fileNameWithoutAssets: None
+        fileNameWithoutAssetsPlusLineNumber: None
+        fileNameWithoutPath: None
+        fileNameWithoutPathPlusLineNumber: None
+        fileNamePretty: None
+        instanceID: -1
+        className: ScriptPlayer
+        methodName: ExecuteIgnoringCancellationAsync
+        namespaceName: Naninovel
+        lineNumberString: 0
+        charNumber: 0
+        stackLabel: ScriptPlayer.ExecuteIgnoringCancellationAsync()
+        stackLabel2: 
+        stackLabel1Content:
+          m_Text: ScriptPlayer.ExecuteIgnoringCancellationAsync()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 290
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:558
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:558
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer/<ExecutePlayedCommandAsync>d__128
+        methodName: MoveNext
+        namespaceName: Naninovel
+        lineNumberString: 558
+        charNumber: 0
+        stackLabel: ScriptPlayer/<ExecutePlayedCommandAsync>d__128.MoveNext()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:558'
+        stackLabel1Content:
+          m_Text: ScriptPlayer/<ExecutePlayedCommandAsync>d__128.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 392
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:558'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 333
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124
+        fileNameWithoutPath: AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutPathPlusLineNumber: AsyncUniTaskMethodBuilder.cs:124
+        fileNamePretty: AsyncUniTaskMethodBuilder
+        instanceID: -1
+        className: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel
+        methodName: ScriptPlayer/<ExecutePlayedCommandAsync>d__128>
+        namespaceName: None
+        lineNumberString: 124
+        charNumber: 0
+        stackLabel: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel.ScriptPlayer/<ExecutePlayedCommandAsync>d__128>()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+        stackLabel1Content:
+          m_Text: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel.ScriptPlayer/<ExecutePlayedCommandAsync>d__128>()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 816
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 611
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: None
+        fileNameWithoutAssets: None
+        fileNameWithoutAssetsPlusLineNumber: None
+        fileNameWithoutPath: None
+        fileNameWithoutPathPlusLineNumber: None
+        fileNamePretty: None
+        instanceID: -1
+        className: ScriptPlayer
+        methodName: ExecutePlayedCommandAsync
+        namespaceName: Naninovel
+        lineNumberString: 0
+        charNumber: 0
+        stackLabel: ScriptPlayer.ExecutePlayedCommandAsync()
+        stackLabel2: 
+        stackLabel1Content:
+          m_Text: ScriptPlayer.ExecutePlayedCommandAsync()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 270
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:622
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:622
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer/<PlayRoutineAsync>d__131
+        methodName: MoveNext
+        namespaceName: Naninovel
+        lineNumberString: 622
+        charNumber: 0
+        stackLabel: ScriptPlayer/<PlayRoutineAsync>d__131.MoveNext()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:622'
+        stackLabel1Content:
+          m_Text: ScriptPlayer/<PlayRoutineAsync>d__131.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 313
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:622'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 331
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16
+        fileNameWithoutPath: MoveNextRunner.cs
+        fileNameWithoutPathPlusLineNumber: MoveNextRunner.cs:16
+        fileNamePretty: MoveNextRunner
+        instanceID: -1
+        className: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<PlayRoutineAsync>d__131>
+        methodName: Run
+        namespaceName: None
+        lineNumberString: 16
+        charNumber: 0
+        stackLabel: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<PlayRoutineAsync>d__131>.Run()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+        stackLabel1Content:
+          m_Text: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<PlayRoutineAsync>d__131>.Run()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 671
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 534
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149
+        fileNameWithoutPath: UniTaskCompletionSource.cs
+        fileNameWithoutPathPlusLineNumber: UniTaskCompletionSource.cs:149
+        fileNamePretty: UniTaskCompletionSource
+        instanceID: -1
+        className: UniTaskCompletionSource
+        methodName: TryInvokeContinuation
+        namespaceName: Naninovel
+        lineNumberString: 149
+        charNumber: 0
+        stackLabel: UniTaskCompletionSource.TryInvokeContinuation()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149'
+        stackLabel1Content:
+          m_Text: UniTaskCompletionSource.TryInvokeContinuation()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 301
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 529
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167
+        fileNameWithoutPath: UniTaskCompletionSource.cs
+        fileNameWithoutPathPlusLineNumber: UniTaskCompletionSource.cs:167
+        fileNamePretty: UniTaskCompletionSource
+        instanceID: -1
+        className: UniTaskCompletionSource
+        methodName: TrySetResult
+        namespaceName: Naninovel
+        lineNumberString: 167
+        charNumber: 0
+        stackLabel: UniTaskCompletionSource.TrySetResult()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167'
+        stackLabel1Content:
+          m_Text: UniTaskCompletionSource.TrySetResult()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 246
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 528
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:72
+        fileNameWithoutPath: AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutPathPlusLineNumber: AsyncUniTaskMethodBuilder.cs:72
+        fileNamePretty: AsyncUniTaskMethodBuilder
+        instanceID: -1
+        className: AsyncUniTaskMethodBuilder
+        methodName: SetResult
+        namespaceName: Naninovel.Async.CompilerServices
+        lineNumberString: 72
+        charNumber: 0
+        stackLabel: AsyncUniTaskMethodBuilder.SetResult()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:72'
+        stackLabel1Content:
+          m_Text: AsyncUniTaskMethodBuilder.SetResult()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 241
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:72'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 604
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:523
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:523
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126
+        methodName: MoveNext
+        namespaceName: Naninovel
+        lineNumberString: 523
+        charNumber: 0
+        stackLabel: ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126.MoveNext()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:523'
+        stackLabel1Content:
+          m_Text: ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 419
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:523'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 332
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16
+        fileNameWithoutPath: MoveNextRunner.cs
+        fileNameWithoutPathPlusLineNumber: MoveNextRunner.cs:16
+        fileNamePretty: MoveNextRunner
+        instanceID: -1
+        className: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126>
+        methodName: Run
+        namespaceName: None
+        lineNumberString: 16
+        charNumber: 0
+        stackLabel: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126>.Run()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+        stackLabel1Content:
+          m_Text: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126>.Run()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 777
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 534
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149
+        fileNameWithoutPath: UniTaskCompletionSource.cs
+        fileNameWithoutPathPlusLineNumber: UniTaskCompletionSource.cs:149
+        fileNamePretty: UniTaskCompletionSource
+        instanceID: -1
+        className: UniTaskCompletionSource
+        methodName: TryInvokeContinuation
+        namespaceName: Naninovel
+        lineNumberString: 149
+        charNumber: 0
+        stackLabel: UniTaskCompletionSource.TryInvokeContinuation()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149'
+        stackLabel1Content:
+          m_Text: UniTaskCompletionSource.TryInvokeContinuation()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 301
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 529
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167
+        fileNameWithoutPath: UniTaskCompletionSource.cs
+        fileNameWithoutPathPlusLineNumber: UniTaskCompletionSource.cs:167
+        fileNamePretty: UniTaskCompletionSource
+        instanceID: -1
+        className: UniTaskCompletionSource
+        methodName: TrySetResult
+        namespaceName: Naninovel
+        lineNumberString: 167
+        charNumber: 0
+        stackLabel: UniTaskCompletionSource.TrySetResult()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167'
+        stackLabel1Content:
+          m_Text: UniTaskCompletionSource.TrySetResult()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 246
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 528
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:432
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:432
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer
+        methodName: SetWaitingForInputEnabled
+        namespaceName: Naninovel
+        lineNumberString: 432
+        charNumber: 0
+        stackLabel: ScriptPlayer.SetWaitingForInputEnabled()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:432'
+        stackLabel1Content:
+          m_Text: ScriptPlayer.SetWaitingForInputEnabled()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 247
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:432'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 332
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:509
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:509
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer
+        methodName: DisableWaitingForInput
+        namespaceName: Naninovel
+        lineNumberString: 509
+        charNumber: 0
+        stackLabel: ScriptPlayer.DisableWaitingForInput()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:509'
+        stackLabel1Content:
+          m_Text: ScriptPlayer.DisableWaitingForInput()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 224
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:509'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 333
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Input/InputSampler.cs:233
+        fileNameWithoutPath: InputSampler.cs
+        fileNameWithoutPathPlusLineNumber: InputSampler.cs:233
+        fileNamePretty: InputSampler
+        instanceID: -1
+        className: InputSampler
+        methodName: SetInputValue
+        namespaceName: Naninovel
+        lineNumberString: 233
+        charNumber: 0
+        stackLabel: InputSampler.SetInputValue()
+        stackLabel2: ' at /Naninovel/Runtime/Input/InputSampler.cs:233'
+        stackLabel1Content:
+          m_Text: InputSampler.SetInputValue()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 175
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Input/InputSampler.cs:233'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 295
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Input/InputSampler.cs:149
+        fileNameWithoutPath: InputSampler.cs
+        fileNameWithoutPathPlusLineNumber: InputSampler.cs:149
+        fileNamePretty: InputSampler
+        instanceID: -1
+        className: InputSampler
+        methodName: <SampleInput>g__SampleObjectTriggers|43_3
+        namespaceName: Naninovel
+        lineNumberString: 149
+        charNumber: 0
+        stackLabel: InputSampler.<SampleInput>g__SampleObjectTriggers|43_3()
+        stackLabel2: ' at /Naninovel/Runtime/Input/InputSampler.cs:149'
+        stackLabel1Content:
+          m_Text: InputSampler.<SampleInput>g__SampleObjectTriggers|43_3()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 370
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Input/InputSampler.cs:149'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 294
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Input/InputSampler.cs:106
+        fileNameWithoutPath: InputSampler.cs
+        fileNameWithoutPathPlusLineNumber: InputSampler.cs:106
+        fileNamePretty: InputSampler
+        instanceID: -1
+        className: InputSampler
+        methodName: SampleInput
+        namespaceName: Naninovel
+        lineNumberString: 106
+        charNumber: 0
+        stackLabel: InputSampler.SampleInput()
+        stackLabel2: ' at /Naninovel/Runtime/Input/InputSampler.cs:106'
+        stackLabel1Content:
+          m_Text: InputSampler.SampleInput()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 166
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Input/InputSampler.cs:106'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 294
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Input/InputManager.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Input/InputManager.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Input/InputManager.cs:168
+        fileNameWithoutPath: InputManager.cs
+        fileNameWithoutPathPlusLineNumber: InputManager.cs:168
+        fileNamePretty: InputManager
+        instanceID: -1
+        className: InputManager/<SampleInputAsync>d__24
+        methodName: MoveNext
+        namespaceName: Naninovel
+        lineNumberString: 168
+        charNumber: 0
+        stackLabel: InputManager/<SampleInputAsync>d__24.MoveNext()
+        stackLabel2: ' at /Naninovel/Runtime/Input/InputManager.cs:168'
+        stackLabel1Content:
+          m_Text: InputManager/<SampleInputAsync>d__24.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 322
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Input/InputManager.cs:168'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 297
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16
+        fileNameWithoutPath: MoveNextRunner.cs
+        fileNameWithoutPathPlusLineNumber: MoveNextRunner.cs:16
+        fileNamePretty: MoveNextRunner
+        instanceID: -1
+        className: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.InputManager/<SampleInputAsync>d__24>
+        methodName: Run
+        namespaceName: None
+        lineNumberString: 16
+        charNumber: 0
+        stackLabel: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.InputManager/<SampleInputAsync>d__24>.Run()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+        stackLabel1Content:
+          m_Text: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.InputManager/<SampleInputAsync>d__24>.Run()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 680
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 534
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:193
+        fileNameWithoutPath: ContinuationQueue.cs
+        fileNameWithoutPathPlusLineNumber: ContinuationQueue.cs:193
+        fileNamePretty: ContinuationQueue
+        instanceID: -1
+        className: ContinuationQueue
+        methodName: RunCore
+        namespaceName: Naninovel.Async.Internal
+        lineNumberString: 193
+        charNumber: 0
+        stackLabel: ContinuationQueue.RunCore()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:193'
+        stackLabel1Content:
+          m_Text: ContinuationQueue.RunCore()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 174
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:193'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 492
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:153
+        fileNameWithoutPath: ContinuationQueue.cs
+        fileNameWithoutPathPlusLineNumber: ContinuationQueue.cs:153
+        fileNamePretty: ContinuationQueue
+        instanceID: -1
+        className: ContinuationQueue
+        methodName: EarlyUpdate
+        namespaceName: Naninovel.Async.Internal
+        lineNumberString: 153
+        charNumber: 0
+        stackLabel: ContinuationQueue.EarlyUpdate()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:153'
+        stackLabel1Content:
+          m_Text: ContinuationQueue.EarlyUpdate()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 197
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:153'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 492
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:100
+        fileNameWithoutPath: ContinuationQueue.cs
+        fileNameWithoutPathPlusLineNumber: ContinuationQueue.cs:100
+        fileNamePretty: ContinuationQueue
+        instanceID: -1
+        className: ContinuationQueue
+        methodName: Run
+        namespaceName: Naninovel.Async.Internal
+        lineNumberString: 100
+        charNumber: 0
+        stackLabel: ContinuationQueue.Run()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:100'
+        stackLabel1Content:
+          m_Text: ContinuationQueue.Run()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 146
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:100'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 492
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      ignoredStackEntries: []
+      lastMatchedCount: 1
+      belongsToFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: f803c31b-877d-4559-8035-84aa5dc6f482
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: f0843884-c081-4584-9a00-6e994efab4f1
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 64014524-9467-46e9-82d2-b6a933e0963e
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 65cbd7ef-9622-44a5-98a0-95471ea25a67
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            sourceCodeList:
+              list: []
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      belongsToStandardFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: f803c31b-877d-4559-8035-84aa5dc6f482
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: f0843884-c081-4584-9a00-6e994efab4f1
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 64014524-9467-46e9-82d2-b6a933e0963e
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 65cbd7ef-9622-44a5-98a0-95471ea25a67
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            sourceCodeList:
+              list: []
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      assignedTempFilter:
+        name: 
+        isEnabled: 1
+        collapsed: 0
+        itemGUID: 
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 0
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: -1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list: []
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+    - logType: 2
+      ignore: 0
+      processed: 1
+      tempFilterProcessed: 1
+      remoteEndPoint: Local
+      logPanelVisible: 1
+      logPanelIndex: 1
+      logOutputHeight: 42
+      listIndex: 1
+      nativeIndex: 1
+      nativeIdentifier: 0
+      originalLog: The Progressive CPU lightmapper is not supported on Apple silicon,
+        switching to the Progressive GPU lightmapper.
+      originalStackTrace: 'The Progressive CPU lightmapper is not supported on Apple
+        silicon, switching to the Progressive GPU lightmapper.
+
+'
+      nativeFileName: 
+      nativeFileNamePretty: 
+      nativeLineNumber: 0
+      watchName: 
+      logText: The Progressive CPU lightmapper is not supported on Apple silicon,
+        switching to the Progressive GPU lightmapper.
+      logTruncatedText: The Progressive CPU lightmapper is not supported on Apple
+        silicon, switching to the Progressive GPU lightmapper.
+      logColumnText: The Progressive CPU lightmapper is not supported on Apple silicon,
+        switching to the Progressive GPU lightmapper.
+      fileName: 
+      className: 
+      namespaceName: 
+      lineCount: 1
+      hasSourceCode: 0
+      timeStamp: 22:46:12
+      timeFrame: -1
+      timeStampDateTimeNow: 
+      instanceID: 0
+      collapsedCount: 0
+      cachedHeight: 34
+      cachedHeightLogWidth: 492
+      stackEntries: []
+      ignoredStackEntries: []
+      lastMatchedCount: 1
+      belongsToFilters:
+      - name: Warning
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: f31563ef-39bc-4b70-a443-5f144484c67f
+        filterName: 
+        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        isStandardFilter: 1
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 1
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: a64b6afd-d8a7-465f-979d-39ed2278345c
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: c9ffcef0-3e82-4533-972f-557e4324a9f4
+                logType: 2
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: fecfc5f0-9c63-477c-b4f1-29e0dcae94dd
+                logType: 5
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 382d927a-9b49-4046-abf0-df038e4c3d60
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            sourceCodeList:
+              list: []
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 3
+          iconType2: 1
+          iconText: '!'
+          useIconTextFirstLetter: 0
+          useIconLogColor: 0
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 2}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 7
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      belongsToStandardFilters:
+      - name: Warning
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: f31563ef-39bc-4b70-a443-5f144484c67f
+        filterName: 
+        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        isStandardFilter: 1
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 1
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: a64b6afd-d8a7-465f-979d-39ed2278345c
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: c9ffcef0-3e82-4533-972f-557e4324a9f4
+                logType: 2
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: fecfc5f0-9c63-477c-b4f1-29e0dcae94dd
+                logType: 5
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 382d927a-9b49-4046-abf0-df038e4c3d60
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            sourceCodeList:
+              list: []
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 3
+          iconType2: 1
+          iconText: '!'
+          useIconTextFirstLetter: 0
+          useIconLogColor: 0
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 2}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 7
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      assignedTempFilter:
+        name: 
+        isEnabled: 1
+        collapsed: 0
+        itemGUID: 
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 0
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: -1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list: []
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+    newEntries: []
+    resetCompilerErrorEntries: 1
+    compilerErrorEntries: []
+    timeFrames: 
+    _filteredEntries:
+    - logType: 1
+      ignore: 0
+      processed: 1
+      tempFilterProcessed: 1
+      remoteEndPoint: Local
+      logPanelVisible: 1
+      logPanelIndex: 0
+      logOutputHeight: 27
+      listIndex: 0
+      nativeIndex: 0
+      nativeIdentifier: 0
+      originalLog: 'Map span in set orientation: 29.81456 camera aspect: 1.777311'
+      originalStackTrace: 'Map span in set orientation: 29.81456 camera aspect: 1.777311
+
+        UnityEngine.Debug:Log
+        (object)
+
+        Map.MapView:SetOrientation () (at Assets/Scripts/MapView.cs:237)
+
+        Map.MapView:ShowMap
+        (Map.Map) (at Assets/Scripts/MapView.cs:96)
+
+        Map.MapManager:ActivateMap
+        () (at Assets/Scripts/MapManager.cs:56)
+
+        OverlayDreamMap/<ExecuteAsync>d__5:MoveNext
+        () (at Assets/Runtime/OverlayDreamMap.cs:40)
+
+        Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder:Start<OverlayDreamMap/<ExecuteAsync>d__5>
+        (OverlayDreamMap/<ExecuteAsync>d__5&) (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124)
+
+        OverlayDreamMap:ExecuteAsync
+        (Naninovel.AsyncToken)
+
+        Naninovel.ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130:MoveNext
+        () (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:598)
+
+        Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder:Start<Naninovel.ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130>
+        (Naninovel.ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130&) (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124)
+
+        Naninovel.ScriptPlayer:ExecuteIgnoringCancellationAsync
+        (Naninovel.Command,Naninovel.AsyncToken)
+
+        Naninovel.ScriptPlayer/<ExecutePlayedCommandAsync>d__128:MoveNext
+        () (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:558)
+
+        Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder:Start<Naninovel.ScriptPlayer/<ExecutePlayedCommandAsync>d__128>
+        (Naninovel.ScriptPlayer/<ExecutePlayedCommandAsync>d__128&) (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124)
+
+        Naninovel.ScriptPlayer:ExecutePlayedCommandAsync
+        (Naninovel.AsyncToken)
+
+        Naninovel.ScriptPlayer/<PlayRoutineAsync>d__131:MoveNext
+        () (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:622)
+
+        Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<PlayRoutineAsync>d__131>:Run
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16)
+
+        Naninovel.UniTaskCompletionSource:TryInvokeContinuation
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149)
+
+        Naninovel.UniTaskCompletionSource:TrySetResult
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167)
+
+        Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder:SetResult
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:72)
+
+        Naninovel.ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126:MoveNext
+        () (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:523)
+
+        Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126>:Run
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16)
+
+        Naninovel.UniTaskCompletionSource:TryInvokeContinuation
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149)
+
+        Naninovel.UniTaskCompletionSource:TrySetResult
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167)
+
+        Naninovel.ScriptPlayer:SetWaitingForInputEnabled
+        (bool) (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:432)
+
+        Naninovel.ScriptPlayer:DisableWaitingForInput
+        () (at Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:509)
+
+        Naninovel.InputSampler:SetInputValue
+        (single) (at Assets/Naninovel/Runtime/Input/InputSampler.cs:233)
+
+        Naninovel.InputSampler:<SampleInput>g__SampleObjectTriggers|43_3
+        () (at Assets/Naninovel/Runtime/Input/InputSampler.cs:149)
+
+        Naninovel.InputSampler:SampleInput
+        () (at Assets/Naninovel/Runtime/Input/InputSampler.cs:106)
+
+        Naninovel.InputManager/<SampleInputAsync>d__24:MoveNext
+        () (at Assets/Naninovel/Runtime/Input/InputManager.cs:168)
+
+        Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.InputManager/<SampleInputAsync>d__24>:Run
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16)
+
+        Naninovel.Async.Internal.ContinuationQueue:RunCore
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:193)
+
+        Naninovel.Async.Internal.ContinuationQueue:EarlyUpdate
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:153)
+
+        Naninovel.Async.Internal.ContinuationQueue:Run
+        () (at Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:100)
+
+'
+      nativeFileName: Assets/Scripts/MapView.cs
+      nativeFileNamePretty: 
+      nativeLineNumber: 237
+      watchName: 
+      logText: 'Map span in set orientation: 29.81456 camera aspect: 1.777311'
+      logTruncatedText: 'Map span in set orientation: 29.81456 camera aspect: 1.777311'
+      logColumnText: 'Map span in set orientation: 29.81456 camera aspect: 1.777311'
+      fileName: 
+      className: 
+      namespaceName: 
+      lineCount: 1
+      hasSourceCode: 0
+      timeStamp: 22:46:02.223
+      timeFrame: 1101
+      timeStampDateTimeNow: 22:46:02.223
+      instanceID: 0
+      collapsedCount: 0
+      cachedHeight: 19
+      cachedHeightLogWidth: 492
+      stackEntries:
+      - fileName: Assets/Scripts/MapView.cs
+        fileNameWithoutAssets: Scripts/MapView.cs
+        fileNameWithoutAssetsPlusLineNumber: Scripts/MapView.cs:237
+        fileNameWithoutPath: MapView.cs
+        fileNameWithoutPathPlusLineNumber: MapView.cs:237
+        fileNamePretty: MapView
+        instanceID: -1
+        className: MapView
+        methodName: SetOrientation
+        namespaceName: Map
+        lineNumberString: 237
+        charNumber: 0
+        stackLabel: MapView.SetOrientation()
+        stackLabel2: ' at /Scripts/MapView.cs:237'
+        stackLabel1Content:
+          m_Text: MapView.SetOrientation()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 153
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Scripts/MapView.cs:237'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 168
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Scripts/MapView.cs
+        fileNameWithoutAssets: Scripts/MapView.cs
+        fileNameWithoutAssetsPlusLineNumber: Scripts/MapView.cs:96
+        fileNameWithoutPath: MapView.cs
+        fileNameWithoutPathPlusLineNumber: MapView.cs:96
+        fileNamePretty: MapView
+        instanceID: -1
+        className: MapView
+        methodName: ShowMap
+        namespaceName: Map
+        lineNumberString: 96
+        charNumber: 0
+        stackLabel: MapView.ShowMap()
+        stackLabel2: ' at /Scripts/MapView.cs:96'
+        stackLabel1Content:
+          m_Text: MapView.ShowMap()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 126
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Scripts/MapView.cs:96'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 162
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Scripts/MapManager.cs
+        fileNameWithoutAssets: Scripts/MapManager.cs
+        fileNameWithoutAssetsPlusLineNumber: Scripts/MapManager.cs:56
+        fileNameWithoutPath: MapManager.cs
+        fileNameWithoutPathPlusLineNumber: MapManager.cs:56
+        fileNamePretty: MapManager
+        instanceID: -1
+        className: MapManager
+        methodName: ActivateMap
+        namespaceName: Map
+        lineNumberString: 56
+        charNumber: 0
+        stackLabel: MapManager.ActivateMap()
+        stackLabel2: ' at /Scripts/MapManager.cs:56'
+        stackLabel1Content:
+          m_Text: MapManager.ActivateMap()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 167
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Scripts/MapManager.cs:56'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 185
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Runtime/OverlayDreamMap.cs
+        fileNameWithoutAssets: Runtime/OverlayDreamMap.cs
+        fileNameWithoutAssetsPlusLineNumber: Runtime/OverlayDreamMap.cs:40
+        fileNameWithoutPath: OverlayDreamMap.cs
+        fileNameWithoutPathPlusLineNumber: OverlayDreamMap.cs:40
+        fileNamePretty: OverlayDreamMap
+        instanceID: -1
+        className: OverlayDreamMap/<ExecuteAsync>d__5
+        methodName: MoveNext
+        namespaceName: None
+        lineNumberString: 40
+        charNumber: 0
+        stackLabel: OverlayDreamMap/<ExecuteAsync>d__5.MoveNext()
+        stackLabel2: ' at /Runtime/OverlayDreamMap.cs:40'
+        stackLabel1Content:
+          m_Text: OverlayDreamMap/<ExecuteAsync>d__5.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 316
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Runtime/OverlayDreamMap.cs:40'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 222
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124
+        fileNameWithoutPath: AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutPathPlusLineNumber: AsyncUniTaskMethodBuilder.cs:124
+        fileNamePretty: AsyncUniTaskMethodBuilder
+        instanceID: -1
+        className: AsyncUniTaskMethodBuilder
+        methodName: Start<OverlayDreamMap/<ExecuteAsync>d__5>
+        namespaceName: Naninovel.Async.CompilerServices
+        lineNumberString: 124
+        charNumber: 0
+        stackLabel: AsyncUniTaskMethodBuilder.Start<OverlayDreamMap/<ExecuteAsync>d__5>()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+        stackLabel1Content:
+          m_Text: AsyncUniTaskMethodBuilder.Start<OverlayDreamMap/<ExecuteAsync>d__5>()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 473
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 611
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: None
+        fileNameWithoutAssets: None
+        fileNameWithoutAssetsPlusLineNumber: None
+        fileNameWithoutPath: None
+        fileNameWithoutPathPlusLineNumber: None
+        fileNamePretty: None
+        instanceID: -1
+        className: OverlayDreamMap
+        methodName: ExecuteAsync
+        namespaceName: None
+        lineNumberString: 0
+        charNumber: 0
+        stackLabel: OverlayDreamMap.ExecuteAsync()
+        stackLabel2: 
+        stackLabel1Content:
+          m_Text: OverlayDreamMap.ExecuteAsync()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 207
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:598
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:598
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130
+        methodName: MoveNext
+        namespaceName: Naninovel
+        lineNumberString: 598
+        charNumber: 0
+        stackLabel: ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130.MoveNext()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:598'
+        stackLabel1Content:
+          m_Text: ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 413
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:598'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 333
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124
+        fileNameWithoutPath: AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutPathPlusLineNumber: AsyncUniTaskMethodBuilder.cs:124
+        fileNamePretty: AsyncUniTaskMethodBuilder
+        instanceID: -1
+        className: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel
+        methodName: ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130>
+        namespaceName: None
+        lineNumberString: 124
+        charNumber: 0
+        stackLabel: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel.ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130>()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+        stackLabel1Content:
+          m_Text: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel.ScriptPlayer/<ExecuteIgnoringCancellationAsync>d__130>()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 837
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 611
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: None
+        fileNameWithoutAssets: None
+        fileNameWithoutAssetsPlusLineNumber: None
+        fileNameWithoutPath: None
+        fileNameWithoutPathPlusLineNumber: None
+        fileNamePretty: None
+        instanceID: -1
+        className: ScriptPlayer
+        methodName: ExecuteIgnoringCancellationAsync
+        namespaceName: Naninovel
+        lineNumberString: 0
+        charNumber: 0
+        stackLabel: ScriptPlayer.ExecuteIgnoringCancellationAsync()
+        stackLabel2: 
+        stackLabel1Content:
+          m_Text: ScriptPlayer.ExecuteIgnoringCancellationAsync()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 290
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:558
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:558
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer/<ExecutePlayedCommandAsync>d__128
+        methodName: MoveNext
+        namespaceName: Naninovel
+        lineNumberString: 558
+        charNumber: 0
+        stackLabel: ScriptPlayer/<ExecutePlayedCommandAsync>d__128.MoveNext()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:558'
+        stackLabel1Content:
+          m_Text: ScriptPlayer/<ExecutePlayedCommandAsync>d__128.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 392
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:558'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 333
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124
+        fileNameWithoutPath: AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutPathPlusLineNumber: AsyncUniTaskMethodBuilder.cs:124
+        fileNamePretty: AsyncUniTaskMethodBuilder
+        instanceID: -1
+        className: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel
+        methodName: ScriptPlayer/<ExecutePlayedCommandAsync>d__128>
+        namespaceName: None
+        lineNumberString: 124
+        charNumber: 0
+        stackLabel: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel.ScriptPlayer/<ExecutePlayedCommandAsync>d__128>()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+        stackLabel1Content:
+          m_Text: Naninovel.Async.CompilerServices.AsyncUniTaskMethodBuilder.Start<Naninovel.ScriptPlayer/<ExecutePlayedCommandAsync>d__128>()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 816
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:124'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 611
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: None
+        fileNameWithoutAssets: None
+        fileNameWithoutAssetsPlusLineNumber: None
+        fileNameWithoutPath: None
+        fileNameWithoutPathPlusLineNumber: None
+        fileNamePretty: None
+        instanceID: -1
+        className: ScriptPlayer
+        methodName: ExecutePlayedCommandAsync
+        namespaceName: Naninovel
+        lineNumberString: 0
+        charNumber: 0
+        stackLabel: ScriptPlayer.ExecutePlayedCommandAsync()
+        stackLabel2: 
+        stackLabel1Content:
+          m_Text: ScriptPlayer.ExecutePlayedCommandAsync()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 270
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:622
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:622
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer/<PlayRoutineAsync>d__131
+        methodName: MoveNext
+        namespaceName: Naninovel
+        lineNumberString: 622
+        charNumber: 0
+        stackLabel: ScriptPlayer/<PlayRoutineAsync>d__131.MoveNext()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:622'
+        stackLabel1Content:
+          m_Text: ScriptPlayer/<PlayRoutineAsync>d__131.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 313
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:622'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 331
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16
+        fileNameWithoutPath: MoveNextRunner.cs
+        fileNameWithoutPathPlusLineNumber: MoveNextRunner.cs:16
+        fileNamePretty: MoveNextRunner
+        instanceID: -1
+        className: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<PlayRoutineAsync>d__131>
+        methodName: Run
+        namespaceName: None
+        lineNumberString: 16
+        charNumber: 0
+        stackLabel: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<PlayRoutineAsync>d__131>.Run()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+        stackLabel1Content:
+          m_Text: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<PlayRoutineAsync>d__131>.Run()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 671
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 534
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149
+        fileNameWithoutPath: UniTaskCompletionSource.cs
+        fileNameWithoutPathPlusLineNumber: UniTaskCompletionSource.cs:149
+        fileNamePretty: UniTaskCompletionSource
+        instanceID: -1
+        className: UniTaskCompletionSource
+        methodName: TryInvokeContinuation
+        namespaceName: Naninovel
+        lineNumberString: 149
+        charNumber: 0
+        stackLabel: UniTaskCompletionSource.TryInvokeContinuation()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149'
+        stackLabel1Content:
+          m_Text: UniTaskCompletionSource.TryInvokeContinuation()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 301
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 529
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167
+        fileNameWithoutPath: UniTaskCompletionSource.cs
+        fileNameWithoutPathPlusLineNumber: UniTaskCompletionSource.cs:167
+        fileNamePretty: UniTaskCompletionSource
+        instanceID: -1
+        className: UniTaskCompletionSource
+        methodName: TrySetResult
+        namespaceName: Naninovel
+        lineNumberString: 167
+        charNumber: 0
+        stackLabel: UniTaskCompletionSource.TrySetResult()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167'
+        stackLabel1Content:
+          m_Text: UniTaskCompletionSource.TrySetResult()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 246
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 528
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:72
+        fileNameWithoutPath: AsyncUniTaskMethodBuilder.cs
+        fileNameWithoutPathPlusLineNumber: AsyncUniTaskMethodBuilder.cs:72
+        fileNamePretty: AsyncUniTaskMethodBuilder
+        instanceID: -1
+        className: AsyncUniTaskMethodBuilder
+        methodName: SetResult
+        namespaceName: Naninovel.Async.CompilerServices
+        lineNumberString: 72
+        charNumber: 0
+        stackLabel: AsyncUniTaskMethodBuilder.SetResult()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:72'
+        stackLabel1Content:
+          m_Text: AsyncUniTaskMethodBuilder.SetResult()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 241
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/AsyncUniTaskMethodBuilder.cs:72'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 604
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:523
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:523
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126
+        methodName: MoveNext
+        namespaceName: Naninovel
+        lineNumberString: 523
+        charNumber: 0
+        stackLabel: ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126.MoveNext()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:523'
+        stackLabel1Content:
+          m_Text: ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 419
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:523'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 332
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16
+        fileNameWithoutPath: MoveNextRunner.cs
+        fileNameWithoutPathPlusLineNumber: MoveNextRunner.cs:16
+        fileNamePretty: MoveNextRunner
+        instanceID: -1
+        className: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126>
+        methodName: Run
+        namespaceName: None
+        lineNumberString: 16
+        charNumber: 0
+        stackLabel: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126>.Run()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+        stackLabel1Content:
+          m_Text: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.ScriptPlayer/<WaitForWaitForInputDisabledAsync>d__126>.Run()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 777
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 534
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149
+        fileNameWithoutPath: UniTaskCompletionSource.cs
+        fileNameWithoutPathPlusLineNumber: UniTaskCompletionSource.cs:149
+        fileNamePretty: UniTaskCompletionSource
+        instanceID: -1
+        className: UniTaskCompletionSource
+        methodName: TryInvokeContinuation
+        namespaceName: Naninovel
+        lineNumberString: 149
+        charNumber: 0
+        stackLabel: UniTaskCompletionSource.TryInvokeContinuation()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149'
+        stackLabel1Content:
+          m_Text: UniTaskCompletionSource.TryInvokeContinuation()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 301
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:149'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 529
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167
+        fileNameWithoutPath: UniTaskCompletionSource.cs
+        fileNameWithoutPathPlusLineNumber: UniTaskCompletionSource.cs:167
+        fileNamePretty: UniTaskCompletionSource
+        instanceID: -1
+        className: UniTaskCompletionSource
+        methodName: TrySetResult
+        namespaceName: Naninovel
+        lineNumberString: 167
+        charNumber: 0
+        stackLabel: UniTaskCompletionSource.TrySetResult()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167'
+        stackLabel1Content:
+          m_Text: UniTaskCompletionSource.TrySetResult()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 246
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Public/UniTaskCompletionSource.cs:167'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 528
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:432
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:432
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer
+        methodName: SetWaitingForInputEnabled
+        namespaceName: Naninovel
+        lineNumberString: 432
+        charNumber: 0
+        stackLabel: ScriptPlayer.SetWaitingForInputEnabled()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:432'
+        stackLabel1Content:
+          m_Text: ScriptPlayer.SetWaitingForInputEnabled()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 247
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:432'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 332
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssets: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:509
+        fileNameWithoutPath: ScriptPlayer.cs
+        fileNameWithoutPathPlusLineNumber: ScriptPlayer.cs:509
+        fileNamePretty: ScriptPlayer
+        instanceID: -1
+        className: ScriptPlayer
+        methodName: DisableWaitingForInput
+        namespaceName: Naninovel
+        lineNumberString: 509
+        charNumber: 0
+        stackLabel: ScriptPlayer.DisableWaitingForInput()
+        stackLabel2: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:509'
+        stackLabel1Content:
+          m_Text: ScriptPlayer.DisableWaitingForInput()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 224
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/ScriptPlayer/ScriptPlayer.cs:509'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 333
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Input/InputSampler.cs:233
+        fileNameWithoutPath: InputSampler.cs
+        fileNameWithoutPathPlusLineNumber: InputSampler.cs:233
+        fileNamePretty: InputSampler
+        instanceID: -1
+        className: InputSampler
+        methodName: SetInputValue
+        namespaceName: Naninovel
+        lineNumberString: 233
+        charNumber: 0
+        stackLabel: InputSampler.SetInputValue()
+        stackLabel2: ' at /Naninovel/Runtime/Input/InputSampler.cs:233'
+        stackLabel1Content:
+          m_Text: InputSampler.SetInputValue()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 175
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Input/InputSampler.cs:233'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 295
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Input/InputSampler.cs:149
+        fileNameWithoutPath: InputSampler.cs
+        fileNameWithoutPathPlusLineNumber: InputSampler.cs:149
+        fileNamePretty: InputSampler
+        instanceID: -1
+        className: InputSampler
+        methodName: <SampleInput>g__SampleObjectTriggers|43_3
+        namespaceName: Naninovel
+        lineNumberString: 149
+        charNumber: 0
+        stackLabel: InputSampler.<SampleInput>g__SampleObjectTriggers|43_3()
+        stackLabel2: ' at /Naninovel/Runtime/Input/InputSampler.cs:149'
+        stackLabel1Content:
+          m_Text: InputSampler.<SampleInput>g__SampleObjectTriggers|43_3()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 370
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Input/InputSampler.cs:149'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 294
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Input/InputSampler.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Input/InputSampler.cs:106
+        fileNameWithoutPath: InputSampler.cs
+        fileNameWithoutPathPlusLineNumber: InputSampler.cs:106
+        fileNamePretty: InputSampler
+        instanceID: -1
+        className: InputSampler
+        methodName: SampleInput
+        namespaceName: Naninovel
+        lineNumberString: 106
+        charNumber: 0
+        stackLabel: InputSampler.SampleInput()
+        stackLabel2: ' at /Naninovel/Runtime/Input/InputSampler.cs:106'
+        stackLabel1Content:
+          m_Text: InputSampler.SampleInput()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 166
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Input/InputSampler.cs:106'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 294
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Input/InputManager.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Input/InputManager.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Input/InputManager.cs:168
+        fileNameWithoutPath: InputManager.cs
+        fileNameWithoutPathPlusLineNumber: InputManager.cs:168
+        fileNamePretty: InputManager
+        instanceID: -1
+        className: InputManager/<SampleInputAsync>d__24
+        methodName: MoveNext
+        namespaceName: Naninovel
+        lineNumberString: 168
+        charNumber: 0
+        stackLabel: InputManager/<SampleInputAsync>d__24.MoveNext()
+        stackLabel2: ' at /Naninovel/Runtime/Input/InputManager.cs:168'
+        stackLabel1Content:
+          m_Text: InputManager/<SampleInputAsync>d__24.MoveNext()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 322
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Input/InputManager.cs:168'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 297
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16
+        fileNameWithoutPath: MoveNextRunner.cs
+        fileNameWithoutPathPlusLineNumber: MoveNextRunner.cs:16
+        fileNamePretty: MoveNextRunner
+        instanceID: -1
+        className: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.InputManager/<SampleInputAsync>d__24>
+        methodName: Run
+        namespaceName: None
+        lineNumberString: 16
+        charNumber: 0
+        stackLabel: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.InputManager/<SampleInputAsync>d__24>.Run()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+        stackLabel1Content:
+          m_Text: Naninovel.Async.CompilerServices.MoveNextRunner`1<Naninovel.InputManager/<SampleInputAsync>d__24>.Run()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 680
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/CompilerServices/MoveNextRunner.cs:16'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 534
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:193
+        fileNameWithoutPath: ContinuationQueue.cs
+        fileNameWithoutPathPlusLineNumber: ContinuationQueue.cs:193
+        fileNamePretty: ContinuationQueue
+        instanceID: -1
+        className: ContinuationQueue
+        methodName: RunCore
+        namespaceName: Naninovel.Async.Internal
+        lineNumberString: 193
+        charNumber: 0
+        stackLabel: ContinuationQueue.RunCore()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:193'
+        stackLabel1Content:
+          m_Text: ContinuationQueue.RunCore()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 174
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:193'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 492
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:153
+        fileNameWithoutPath: ContinuationQueue.cs
+        fileNameWithoutPathPlusLineNumber: ContinuationQueue.cs:153
+        fileNamePretty: ContinuationQueue
+        instanceID: -1
+        className: ContinuationQueue
+        methodName: EarlyUpdate
+        namespaceName: Naninovel.Async.Internal
+        lineNumberString: 153
+        charNumber: 0
+        stackLabel: ContinuationQueue.EarlyUpdate()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:153'
+        stackLabel1Content:
+          m_Text: ContinuationQueue.EarlyUpdate()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 197
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:153'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 492
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Assets/Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssets: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs
+        fileNameWithoutAssetsPlusLineNumber: Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:100
+        fileNameWithoutPath: ContinuationQueue.cs
+        fileNameWithoutPathPlusLineNumber: ContinuationQueue.cs:100
+        fileNamePretty: ContinuationQueue
+        instanceID: -1
+        className: ContinuationQueue
+        methodName: Run
+        namespaceName: Naninovel.Async.Internal
+        lineNumberString: 100
+        charNumber: 0
+        stackLabel: ContinuationQueue.Run()
+        stackLabel2: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:100'
+        stackLabel1Content:
+          m_Text: ContinuationQueue.Run()
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 146
+        stackLabel1Height: 25
+        stackLabel2Content:
+          m_Text: ' at /Naninovel/Runtime/Common/Async/UniTask/Internal/ContinuationQueue.cs:100'
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 492
+        stackLabel2Height: 25
+        stackSourceLineHeight: 17
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      ignoredStackEntries: []
+      lastMatchedCount: 1
+      belongsToFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: f803c31b-877d-4559-8035-84aa5dc6f482
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: f0843884-c081-4584-9a00-6e994efab4f1
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 64014524-9467-46e9-82d2-b6a933e0963e
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 65cbd7ef-9622-44a5-98a0-95471ea25a67
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            sourceCodeList:
+              list: []
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      belongsToStandardFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: f803c31b-877d-4559-8035-84aa5dc6f482
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: f0843884-c081-4584-9a00-6e994efab4f1
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 64014524-9467-46e9-82d2-b6a933e0963e
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 65cbd7ef-9622-44a5-98a0-95471ea25a67
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            sourceCodeList:
+              list: []
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      assignedTempFilter:
+        name: 
+        isEnabled: 1
+        collapsed: 0
+        itemGUID: 
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 0
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: -1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list: []
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+    - logType: 2
+      ignore: 0
+      processed: 1
+      tempFilterProcessed: 1
+      remoteEndPoint: Local
+      logPanelVisible: 1
+      logPanelIndex: 1
+      logOutputHeight: 42
+      listIndex: 1
+      nativeIndex: 1
+      nativeIdentifier: 0
+      originalLog: The Progressive CPU lightmapper is not supported on Apple silicon,
+        switching to the Progressive GPU lightmapper.
+      originalStackTrace: 'The Progressive CPU lightmapper is not supported on Apple
+        silicon, switching to the Progressive GPU lightmapper.
+
+'
+      nativeFileName: 
+      nativeFileNamePretty: 
+      nativeLineNumber: 0
+      watchName: 
+      logText: The Progressive CPU lightmapper is not supported on Apple silicon,
+        switching to the Progressive GPU lightmapper.
+      logTruncatedText: The Progressive CPU lightmapper is not supported on Apple
+        silicon, switching to the Progressive GPU lightmapper.
+      logColumnText: The Progressive CPU lightmapper is not supported on Apple silicon,
+        switching to the Progressive GPU lightmapper.
+      fileName: 
+      className: 
+      namespaceName: 
+      lineCount: 1
+      hasSourceCode: 0
+      timeStamp: 22:46:12
+      timeFrame: -1
+      timeStampDateTimeNow: 
+      instanceID: 0
+      collapsedCount: 0
+      cachedHeight: 34
+      cachedHeightLogWidth: 492
+      stackEntries: []
+      ignoredStackEntries: []
+      lastMatchedCount: 1
+      belongsToFilters:
+      - name: Warning
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: f31563ef-39bc-4b70-a443-5f144484c67f
+        filterName: 
+        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        isStandardFilter: 1
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 1
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: a64b6afd-d8a7-465f-979d-39ed2278345c
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: c9ffcef0-3e82-4533-972f-557e4324a9f4
+                logType: 2
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: fecfc5f0-9c63-477c-b4f1-29e0dcae94dd
+                logType: 5
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 382d927a-9b49-4046-abf0-df038e4c3d60
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            sourceCodeList:
+              list: []
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 3
+          iconType2: 1
+          iconText: '!'
+          useIconTextFirstLetter: 0
+          useIconLogColor: 0
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 2}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 7
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      belongsToStandardFilters:
+      - name: Warning
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: f31563ef-39bc-4b70-a443-5f144484c67f
+        filterName: 
+        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        isStandardFilter: 1
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 1
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: a64b6afd-d8a7-465f-979d-39ed2278345c
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: c9ffcef0-3e82-4533-972f-557e4324a9f4
+                logType: 2
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: fecfc5f0-9c63-477c-b4f1-29e0dcae94dd
+                logType: 5
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 382d927a-9b49-4046-abf0-df038e4c3d60
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            sourceCodeList:
+              list: []
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 3
+          iconType2: 1
+          iconText: '!'
+          useIconTextFirstLetter: 0
+          useIconLogColor: 0
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 2}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 7
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      assignedTempFilter:
+        name: 
+        isEnabled: 1
+        collapsed: 0
+        itemGUID: 
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 0
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: -1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list: []
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
   m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 332.5
-    width: 227
-    height: 373
+    x: -829
+    y: 1138
+    width: 499
+    height: 333
   m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      m_LastClickedID: 0
-      m_ExpandedIDs: 42fbffff
+      m_SelectedIDs: 9290feff
+      m_LastClickedID: -94062
+      m_ExpandedIDs: a8fbfaff3efcfaff6403fbff7418fbff7420fbff6288ffff1ac2fffff4ffffff0ae10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name:
-        m_OriginalName:
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -494,14 +4200,290 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 0}
-      m_SearchString:
+      m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &15
+  m_WindowGUID: ee81c94e2c3a94aec99a823210a3249b
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 554
+    y: 1138
+    width: 536
+    height: 600
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -829
+    y: 1492
+    width: 499
+    height: 627
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Scripts
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Scripts
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: /Users/july/workspace/IntegrationExample
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 626f0000
+    m_LastClickedID: 28514
+    m_ExpandedIDs: 00000000526f000004a7000018a70000d0c1000076e0000032e9000034e9000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000526f000004a7000018a70000d0c1000032e9000034e9000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: Dialogues
+      m_OriginalName: Dialogues
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 42840
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 6}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 200
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -329
+    y: 1622
+    width: 881
+    height: 497
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 846, y: 476}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 01000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -423
+    m_HBaseRangeMax: 423
+    m_VBaseRangeMin: -238
+    m_VBaseRangeMax: 238
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 881
+      height: 476
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 440.5, y: 238}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -440.5
+      y: -238
+      width: 881
+      height: 476
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 881, y: 497}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -511,23 +4493,246 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2477
-    y: 332.5
-    width: 691
-    height: 373
+    x: -329
+    y: 1138
+    width: 881
+    height: 463
   m_ViewDataDictionary: {fileID: 0}
-  m_ShowContextualTools: 0
-  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -101, y: -26}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 10
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+  m_WindowGUID: 08bcbbfd2fe4b4900a190a20f83d03f9
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
@@ -549,13 +4754,14 @@ MonoBehaviour:
   m_DoValidateTrueMetals: 0
   m_ExposureSliderValue: 0
   m_SceneViewState:
+    m_AlwaysRefresh: 0
     showFog: 1
-    showMaterialUpdate: 0
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
+    m_FxEnabled: 1
   m_Grid:
     xGrid:
       m_Fade:
@@ -599,12 +4805,12 @@ MonoBehaviour:
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
-    m_SpeedMin: 0.001
+    m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
     m_AccelerationEnabled: 1
-    m_FieldOfView: 90
+    m_FieldOfViewHorizontalOrVertical: 60
     m_NearClip: 0.03
     m_FarClip: 10000
     m_DynamicClip: 1
@@ -612,122 +4818,7 @@ MonoBehaviour:
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
-  m_ReplacementString:
+  m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
-  m_Pos:
-    serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
-  m_ViewDataDictionary: {fileID: 0}
-  m_SerializedViewsNames: []
-  m_SerializedViewsValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 640, y: 480}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
-  m_MaximizeOnPlay: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -766
-    m_HBaseRangeMax: 766
-    m_VBaseRangeMin: -395
-    m_VBaseRangeMax: 395
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 1532
-      height: 790
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 395}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -766
-      y: -395
-      width: 1532
-      height: 790
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1532, y: 790}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
-  m_Pos:
-    serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
-  m_ViewDataDictionary: {fileID: 0}
-
